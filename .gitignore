@@ -1,0 +1,15 @@
+# built binaries
+/vigo
+/vigo.exe
+*.exe
+*.test
+
+# test and profiling output
+*.out
+*.prof
+coverage.txt
+
+# editor and OS leftovers
+*.swp
+*~
+.DS_Store
