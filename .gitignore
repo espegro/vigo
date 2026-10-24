@@ -13,3 +13,6 @@ coverage.txt
 *.swp
 *~
 .DS_Store
+
+# release builds
+dist/

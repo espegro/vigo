@@ -8,7 +8,9 @@ import (
 	"vigo/internal/editor"
 )
 
-const version = "0.1"
+// version is overridden at build time for releases:
+// go build -ldflags "-X main.version=1.2.3"
+var version = "0.1"
 
 func main() {
 	args := os.Args[1:]
